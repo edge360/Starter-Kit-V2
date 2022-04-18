@@ -22,14 +22,14 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .5;
+    opacity: 0.5;
     top: 0;
     left: 0;
     z-index: -1;
   }
   #int-hero h1 {
     color: #fff;
-    font-size: 3.2em;
+    font-size: 64/20em;
     text-align: center;
     margin: 0;
     position: relative;
@@ -39,11 +39,11 @@
     position: absolute;
     display: block;
     height: 200%;
-    max-height: 2.96875em;
+    max-height: 190/64em;
     width: 40%;
     background: transparent;
-    border: 0.15625em solid var(--primary);
-    opacity: .5;
+    border: 10/64em solid var(--primary);
+    opacity: 0.5;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -63,9 +63,9 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #int-hero {
-    min-height: 15em;
-    height: 15em;
-    margin-top: 7.4em;
+    min-height: 300/20em;
+    height: 300/20em;
+    margin-top: 148/20em;
     background-attachment: fixed;
     background-position: center 80%;
     font-size: inherit;
@@ -77,8 +77,8 @@
 /* Mobile */
 @media only screen and (min-width: 0) {
   #reviews {
-    padding-top: 1.75em;
-    padding-bottom: 7.5em;
+    padding-top: 35/20em;
+    padding-bottom: 150/20em;
   }
   #reviews h2,
   #reviews .yellow-span {
@@ -95,15 +95,15 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 2em;
-    margin-top: 7.5em;
+    margin-bottom: 40/20em;
+    margin-top: 150/20em;
   }
   #reviews .stars:first-of-type {
-    margin-top: 3.75em;
+    margin-top: 75/20em;
   }
   #reviews .stars img {
-    width: 1.5em;
-    height: 1.5em;
+    width: 30/20em;
+    height: 30/20em;
     display: inline-block;
   }
   #reviews p {
@@ -113,11 +113,11 @@
     margin-right: auto;
   }
   #reviews .name {
-    font-size: 0.9em;
+    font-size: 18/20em;
     font-weight: bold;
     text-align: center;
     display: block;
-    margin-top: 2.77777778em;
+    margin-top: 50/18em;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,24 +133,24 @@
     content: '';
     position: absolute;
     display: block;
-    height: 2.22222222em;
-    width: 2.22222222em;
+    height: 40/18em;
+    width: 40/18em;
     border-radius: 50%;
     background: var(--primary);
-    opacity: .2;
+    opacity: 0.2;
     z-index: -1;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 1024px) {
   #reviews {
-    padding: 0px 0 5em;
+    padding: 0px 0 100/20em;
   }
   #reviews .stars {
-    margin-top: 7.5em;
+    margin-top: 150/20em;
   }
   #reviews p {
-    width: 35em;
+    width: 700/20em;
     margin: auto;
   }
 }
