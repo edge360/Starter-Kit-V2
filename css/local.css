@@ -2,14 +2,14 @@
 <---          Landing           -->
 <--- -------------------------- -*/
 main {
-  min-height: 1000/20em;
+  min-height: 50em;
 }
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #hero {
     font-size: inherit;
-    padding-bottom: 270/20em;
-    padding-top: 100/20em;
+    padding-bottom: 13.5em;
+    padding-top: 5em;
     position: relative;
     z-index: 1;
     background: url("/images/landing-mobile.jpg");
@@ -24,14 +24,14 @@ main {
     height: 100%;
     width: 100%;
     background: #ECEFFE;
-    opacity: 0.9;
+    opacity: .9;
     top: 0;
     left: 0;
     z-index: -10;
   }
   #hero .hero-content {
     width: 96%;
-    max-width: 1144/20em;
+    max-width: 57.2em;
     margin: auto;
     position: relative;
     z-index: 10;
@@ -41,19 +41,19 @@ main {
   }
   #hero .heroText {
     width: 100%;
-    max-width: 578/20em;
+    max-width: 28.9em;
   }
   #hero h1 {
     font-weight: bold;
-    font-size: 56/20em;
+    font-size: 2.8em;
     color: #000000;
-    line-height: 66/56;
-    margin-bottom: 23/56em;
+    line-height: 1.17857143;
+    margin-bottom: 0.41071429em;
   }
   #hero p {
-    font-size: 18/20em;
-    line-height: 27/18;
-    margin-bottom: 24/18em;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 1.33333333em;
     color: #595959;
   }
   #hero .buttons {
@@ -62,14 +62,14 @@ main {
   }
   #hero .button-solid {
     margin: 0;
-    margin-right: 52/18em;
-    height: 53/18em;
-    padding-top: 3/18em;
+    margin-right: 2.88888889em;
+    height: 2.94444444em;
+    padding-top: 0.16666667em;
   }
   #hero .call-now {
-    height: 53/18em;
-    width: 164/18em;
-    font-size: 18/20em;
+    height: 2.94444444em;
+    width: 9.11111111em;
+    font-size: 0.9em;
     display: inline-block;
     display: flex;
     justify-content: space-between;
@@ -79,8 +79,8 @@ main {
   }
   #hero .call-now img {
     display: inline-block;
-    width: 21/18em;
-    height: 21/18em;
+    width: 1.16666667em;
+    height: 1.16666667em;
   }
   #hero .call-now .dark {
     display: none;
@@ -89,15 +89,15 @@ main {
     display: block;
   }
   #hero .call-now .text {
-    font-size: 12/20em;
-    line-height: 14/12;
+    font-size: 0.6em;
+    line-height: 1.16666667;
     text-transform: uppercase;
-    margin-bottom: 6/12em;
+    margin-bottom: 0.5em;
   }
   #hero .call-now .number {
     font-weight: bold;
-    line-height: 21/18;
-    font-size: 18/18em;
+    line-height: 1.16666667;
+    font-size: 1em;
   }
   #hero .business-casual {
     display: none;
@@ -106,7 +106,7 @@ main {
 /* Tablet */
 @media only screen and (min-width: 48em) {
   #hero {
-    padding: 123/20em 0 229/20em 0;
+    padding: 6.15em 0 11.45em 0;
     z-index: 1;
     overflow: hidden;
     background: url("/images/landing.jpg");
@@ -121,21 +121,21 @@ main {
   }
   #hero .business-casual {
     display: block;
-    width: 350/20em;
+    width: 17.5em;
     position: absolute;
     right: 0;
-    top: -70/20em;
+    top: -3.5em;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #hero {
-    padding-top: 300/20em;
-    padding-bottom: 280/20em;
+    padding-top: 15em;
+    padding-bottom: 14em;
     background-attachment: fixed;
   }
   #hero .business-casual {
-    right: 50/20em;
+    right: 2.5em;
   }
 }
 /* Large Desktop */
@@ -146,7 +146,7 @@ main {
 @media only screen and (min-width: 0em) {
   #services {
     padding-top: 0;
-    margin-top: -120/20em;
+    margin-top: -6em;
     display: flex;
     flex-direction: column-reverse;
     z-index: 100;
@@ -154,12 +154,12 @@ main {
   }
   #services .service {
     background: #0e817c;
-    padding: 42/20em;
+    padding: 2.1em;
     width: 90%;
     margin: auto;
   }
   #services .service:nth-of-type(2) {
-    border-bottom: 1/20em solid rgba(73, 181, 176, 0.5);
+    border-bottom: 0.05em solid rgba(73, 181, 176, 0.5);
   }
   #services .service:nth-of-type(2) {
     background: #10625e;
@@ -179,9 +179,9 @@ main {
   }
   #services .service h2 {
     color: #fff;
-    font-size: 24/20em;
-    line-height: 28/24;
-    margin-bottom: 15/24em;
+    font-size: 1.2em;
+    line-height: 1.16666667;
+    margin-bottom: 0.625em;
     text-align: left;
     font-weight: 900;
   }
@@ -191,10 +191,10 @@ main {
   }
   #services .service p {
     color: #fff;
-    font-size: 18/20em;
-    line-height: 27/18;
+    font-size: 0.9em;
+    line-height: 1.5;
     text-align: left;
-    margin-bottom: 30/18em;
+    margin-bottom: 1.66666667em;
     opacity: 1;
   }
   #services .service .button-solid {
@@ -215,7 +215,7 @@ main {
     margin-right: auto;
   }
   #services .service:nth-of-type(1) {
-    border-right: 1/20em solid rgba(255, 255, 255, 0.05);
+    border-right: 0.05em solid rgba(255, 255, 255, 0.05);
   }
   #services .service:nth-of-type(1),
   #services .service:nth-of-type(3) {
@@ -228,7 +228,7 @@ main {
   #services .service:nth-of-type(2) h2,
   #services .service:nth-of-type(2) p {
     text-align: center;
-    max-width: 400/20em;
+    max-width: 20em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -243,27 +243,27 @@ main {
     flex-direction: row;
     align-items: flex-end;
     width: 96%;
-    max-width: 1144/20em;
+    max-width: 57.2em;
     margin: auto;
-    margin-top: -130/20em;
+    margin-top: -6.5em;
     position: relative;
     z-index: 100;
     padding: 0;
   }
   #services .service {
     margin: 0;
-    width: 372/20em;
+    width: 18.6em;
     height: auto;
-    border-radius: 5/20em 5/20em 0 0;
+    border-radius: 0.25em 0.25em 0 0;
   }
   #services .service:nth-of-type(2) {
     order: initial;
-    width: 400/20em;
-    height: 345/20em;
+    width: 20em;
+    height: 17.25em;
     border: none;
   }
   #services .service:last-of-type {
-    border-radius: 5/20em 5/20em 0 0;
+    border-radius: 0.25em 0.25em 0 0;
   }
 }
 /* Small Desktop */
